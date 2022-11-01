@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Html5  from "../assets/img/html5.svg"
 import Css from "../assets/img/css3.svg"
 import Js from "../assets/img/javascript.svg"
@@ -10,10 +9,7 @@ import Angular from "../assets/img/angular.svg"
 import Php from "../assets/img/php.svg"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
-import { Wordpress } from "react-bootstrap-icons";
+
 
 export const Skills = () => {
   const responsive = {
