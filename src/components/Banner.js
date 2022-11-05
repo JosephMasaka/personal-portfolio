@@ -80,13 +80,7 @@ export const Banner = () => {
                       <h6>Projects <br/>Completed</h6>
                     </div>
                   </div>
-                  <div className="cups">
-                    <div className="cups-one">
-                      <span>+</span>
-                      <CountUp end={4} className="spanned"/>
-                      <h6>Happy <br/>Clients</h6>
-                    </div>
-                  </div>
+                  
                 </div>}
             </TrackVisibility>
           </Col>
