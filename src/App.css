@@ -386,6 +386,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /** Experience **/
 .exp-bx{
   background-color: transparent;
+  padding-top: 150px !important;
+  position: relative;
+  padding-bottom: 150px !important;
 }
 
 .exps .exp-col a button{
@@ -399,8 +402,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 50px;
 }
 
+.ul-styled ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
 
+.exp-col button{
+  margin-left: 0;
+}
 
+.exp .navbar-text button:hover {
+    color: #121212;
+}
+
+.react-tabs__tab--selected span{
+  color: #000;
+}
+
+.flex{
+  display: flex;
+}
+
+.inline-left{
+  width: 30%;
+  text-align: left;
+
+}
+
+.inline-right{
+  text-align: left;
+  width: 70%;
+  border-left: 1px dotted rgba(255, 255, 255, .4);
+  padding: 0 55px;
+}
+
+.inline-left h5{
+  border-right: 4px solid #fff;
+  padding-bottom: 20px;
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
