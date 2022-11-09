@@ -94,3 +94,51 @@
     }
 }
 
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 95%;
+    }
+
+    nav.navbar a.navbar-brand {
+        width: 15%;
+    }
+
+    .logo-bottom{
+        margin-left: 37%;
+        margin-bottom: 30px;
+    }
+
+    #exp{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .project .nav.nav-pills .nav-link{
+        font-size: 13px;
+    }
+
+    .newsletter-bx {
+         padding: 85px 15px;
+    }
+}
+
+@media screen and (max-width: 476px){
+    .exp-bx{
+        padding: 60px 0px;
+    }
+}
+
+@media screen and (max-width: 398px){
+    .exp-col{
+        margin-left: -35px;
+    }
+
+    .hidden-on{
+        display: none;
+    }
+
+    .exps .nav-Item-right {
+        margin-left: 15px;
+    }
+}
